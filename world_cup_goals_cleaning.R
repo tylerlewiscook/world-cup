@@ -1,4 +1,4 @@
-library(stringr)
+library(stringr)  # for working with strings
 
 goals <- read.csv(file = "original_goals.csv", header = TRUE)
 
