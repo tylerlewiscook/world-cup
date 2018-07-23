@@ -119,7 +119,7 @@ goals <- data.frame(times, which.cup)
 
 margin.table(table(goals$times, goals$which.cup), 2)
 
-write.csv(goals, file="goals.csv", row.names=FALSE)
+write.csv(goals, file="original_goals.csv", row.names=FALSE)
 
 
 
