@@ -4,7 +4,7 @@ library(rvest)	# for web scraping
 
 # Initial data for all years -----------------------------------------------
 
-years <- seq(1930, 2014, 4)
+years <- seq(1930, 2018, 4)
 years <- years[-c(which(years == 1942), which(years == 1942)+1)]
 
 times <- NULL
